@@ -1,0 +1,9 @@
+// myschema.idl
+namespace users;
+
+table User {
+  name:string;
+  id:ulong;
+}
+
+root_type User;
